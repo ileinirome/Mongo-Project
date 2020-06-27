@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Geometry Announcements</title>
+    </head>
+    <body>
+      <div>
+      <h1>Welcome to the Geometry Announcements Page!</h1>
+      </div>
+      <!-- <div class="event-list">
+        <ul>
+          {% for event in events %}
+            <li>{{ event.event }} - {{ event.date }}</li>
+          {% endfor %}
+        </ul>
+      <div> -->
+       <h2> Login to see all upcoming assignments and their due dates! 
+           If you don't have a login, click on 'signup' to create a username and password!</h2>
+      </div>
+
+      <div class="event-list">
+      </div>
+      <h3> Login: </h3>
+      <form action="/login" method="POST">
+        <label for="name">Name</label>
+        <input type="text" name="username">
+        <label for="password">Password</label>
+        <input type="password" name="password">
+        <input type="submit" placeholder="Log in">
+      </form>
+
+      <div>
+          <h3> Sign Up</h3>
+           <p> Click on the link to create an account:<a href = "/signup">Sign up. </a> </p>
+      </div>
+      <form action="/signup" method="POST">
+
+    
+
+    </body>
+</html>
